@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/board/insert_ok.jsp">
+	<form action="/board.do" method="post">
 		제목 :<input type="text" name="title"><br> 
 		내용:<textarea name="content"></textarea><br> 
 		사용자 :<input type="text" name="creuser">
