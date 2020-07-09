@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import s0625.Student;
-
 class LOLChamp {
 	private String name;
 	private int power;

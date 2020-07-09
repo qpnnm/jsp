@@ -13,7 +13,7 @@ package sss;
 	}
 
 	public String toString() {
-		return "Student [name=" + name + ", grade=" + grade + ", point=" + point + "]";
+		return "Student [name=" + name + ", grade=" + grade +"]";
 	}
 
 	public String getName() {
