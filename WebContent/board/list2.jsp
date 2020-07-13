@@ -42,9 +42,9 @@
 	ResultSet rs = ps.executeQuery();
 	%>
 	<%=title%>
-	
+
 	<%=content%>
-	
+
 	<%=creuser%>
 	<form>
 		제목 : <input type="text" name="title"><br> 내용: <input

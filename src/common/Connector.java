@@ -3,9 +3,9 @@ package common;
 import java.sql.*;
 
 public class Connector {
-	private static final String URL = "jdbc:oracle:thin:@localhost:1521/xe";
-	private static final String ID = "c##test";
-	private static final String PWD = "test";
+	private static final String URL = "jdbc:oracle:thin:@192.168.219.102:1521/xe";
+	private static final String ID = "system";
+	private static final String PWD = "1234";
 	private static Connection conn;
 
 	private static void init() {
